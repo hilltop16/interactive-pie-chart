@@ -1,0 +1,48 @@
+.filter-container {
+    flex: none;
+    width: 20%;
+    display: flex;
+    margin: 20rem auto auto auto;
+    font-size: 1.5rem
+  }
+  
+  .filter-menu {
+    margin: auto;
+    width: 70%;
+  }
+  
+  .chart-title {
+    margin-left: 5rem;
+  }
+
+  .filter-label {
+    color: lightskyblue;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-group {
+      margin-bottom: 2rem;
+  }
+
+  .select {
+      width: 100%;
+      position: relative;
+      vertical-align: top;
+  }
+
+  .select select {
+      height: 2.25em;
+      padding-left: 5px;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+      outline: 0;
+      background-color: #fff;
+      border-color: #dbdbdb;
+      border-radius: 4px;
+      color: #363636;
+  }
+/* 
+  .select select option {
+    text-transform:capitalize;
+  } */
